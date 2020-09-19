@@ -1,6 +1,6 @@
 #include <iostream>
-#include "./Game.h"
-#include "./Constants.h"
+#include "Game.h"
+#include "Constants.h"
 
 SDL_Renderer *Game::renderer;
 SDL_Event Game::event;
