@@ -2,6 +2,10 @@
 #define GAME_H
 
 #include <SDL2/SDL.h>
+#include <exception>
+#include <functional>
+
+#define GL_GLEXT_PROTOTYPES 1
 
 class Game
 {

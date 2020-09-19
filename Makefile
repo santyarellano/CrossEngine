@@ -4,6 +4,11 @@ build:
 	-lSDL2 \
 	-o game
 
+androidb:
+	~/Dev/SDL2-2.0.12/build-scripts/androidbuild.sh \
+	com.ssamdev.games \
+	src/*.cpp
+
 run:
 	./game
 
