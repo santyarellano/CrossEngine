@@ -1,0 +1,2 @@
+cd /Users/ssam/Dev/SDL2-2.0.12/build/com.test.tuti
+./gradlew installDebug
