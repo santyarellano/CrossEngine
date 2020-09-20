@@ -1,2 +1,2 @@
-cd /Users/ssam/Dev/SDL2-2.0.12/build/com.test2.tuti
+cd cross-game
 ./gradlew installDebug
