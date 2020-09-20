@@ -1,4 +1,12 @@
 #ifndef CONSTANTS_HPP
 #define CONSTANTS_HPP
 
+enum
+{
+    DISPLAY_WIDTH = 480,
+    DISPLAY_HEIGHT = 320,
+    UPDATE_INTERVAL = 1000 / 60,
+    HERO_SPEED = 2
+};
+
 #endif

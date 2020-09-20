@@ -1,1 +1,2 @@
-~/Dev/SDL2-2.0.12/build-scripts/androidbuild.sh com.test2.tuti src/sources.list
+cd cross-game
+./gradlew installDebug

@@ -4,12 +4,6 @@ build:
 	-o game \
 	-lSDL2;
 
-bandroid:
-	./building_scripts/bandroid;
-
-randroid:
-	./building_scripts/randroid;
-
 clean:
 	rm ./game;
 

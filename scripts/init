@@ -1,8 +1,0 @@
-if [ $# -eq 1 ]
-then 
-    cd ..
-    mv android-project $1
-    cd scripts
-else
-    echo "Usage: init <project-name>"
-fi
