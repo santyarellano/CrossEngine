@@ -2,18 +2,15 @@
 # Change com.ssamdev.games to com.yourcompany.yourgame
 
 build:
-	g++ -std=c++14 -Wfatal-errors \
-	src/*.cpp \
+	g++ -std=c++11 -Wfatal-errors \
+	*.cpp \
 	-lSDL2 \
 	-o game
 
 bandroid:
 	./SDL2-2.0.12/build-scripts/androidbuild.sh \
 	com.ssamdev.games \
-	src/*.cpp
-
-randroid:
-	./SDL2-2.0.12/build/com.ssamdev.games/gradlew installDebug
+	src2/*
 
 run:
 	./game
