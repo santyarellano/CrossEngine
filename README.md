@@ -58,6 +58,6 @@ If everything is setup properly, you should be able to run it both in your compu
 ### Running on android
 
 1. Make sure to have your device with USB debugging enabled. You can google how to do that as it is different for every android device.
-1. Make sure you have an android device connected to your computer.
-1. I wrote a shell script for you to build & install the game doing all the necessary linking and stuff. Just run `scripts/bandroid`.
-1. If everything went well you should see a lot of lines running on your terminal and your phone should ask you if you want to install an SDL project. Accept that and when your terminal ends running stuff you should be able to run your recently SDL2 installed game.
+2. Make sure you have an android device connected to your computer.
+3. I wrote a shell script for you to build & install the game doing all the necessary linking and stuff. Just run `scripts/bandroid`.
+4. If everything went well you should see a lot of lines running on your terminal and your phone should ask you if you want to install an SDL project. Accept that and when your terminal ends running stuff you should be able to run your recently SDL2 installed game.
