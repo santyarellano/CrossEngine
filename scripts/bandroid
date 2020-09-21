@@ -1,2 +1,5 @@
-cd cross-game
+PROJECT_NAME=cross-game
+rm $PROJECT_NAME/app/jni/src/*.cpp $PROJECT_NAME/app/jni/src/*.hpp 
+ln -s $PWD/src/* $PWD/$PROJECT_NAME/app/jni/src/.
+cd $PROJECT_NAME
 ./gradlew installDebug

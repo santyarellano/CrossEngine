@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Sep 20 19:25:56 CDT 2020
+#Sun Sep 20 19:55:11 CDT 2020
 8.base=/Users/ssam/Documents/Git/CrossEngine/cross-game/app/build/intermediates/transforms/stripDebugSymbol/debug/0
 2.base=/Users/ssam/Documents/Git/CrossEngine/cross-game/app/build/intermediates/transforms/stripDebugSymbol/debug/0
 0.path=lib/arm64-v8a/libhidapi.so
