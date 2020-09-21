@@ -4,6 +4,9 @@ build:
 	-o game \
 	-lSDL2;
 
+bandroid:
+	./scripts/bandroid;
+
 clean:
 	rm ./game;
 

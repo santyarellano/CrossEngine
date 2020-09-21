@@ -1,5 +1,6 @@
 /Users/ssam/Documents/Git/CrossEngine/cross-game/app/build/intermediates/ndkBuild/debug/obj/local/x86/objs-debug/main/Main.o: \
   /Users/ssam/Documents/Git/CrossEngine/cross-game/app/jni/src/Main.cpp \
+  /Users/ssam/Documents/Git/CrossEngine/cross-game/app/jni/src/Game.hpp \
   /Users/ssam/Documents/Git/CrossEngine/cross-game/app/jni/src/../SDL/include/SDL.h \
   /Users/ssam/Documents/Git/CrossEngine/cross-game/app/jni/src/../SDL/include/SDL_main.h \
   /Users/ssam/Documents/Git/CrossEngine/cross-game/app/jni/src/../SDL/include/SDL_stdinc.h \
@@ -48,6 +49,8 @@
   /Users/ssam/Documents/Git/CrossEngine/cross-game/app/jni/src/../SDL/include/SDL_timer.h \
   /Users/ssam/Documents/Git/CrossEngine/cross-game/app/jni/src/../SDL/include/SDL_version.h \
   /Users/ssam/Documents/Git/CrossEngine/cross-game/app/jni/src/Constants.hpp
+
+/Users/ssam/Documents/Git/CrossEngine/cross-game/app/jni/src/Game.hpp:
 
 /Users/ssam/Documents/Git/CrossEngine/cross-game/app/jni/src/../SDL/include/SDL.h:
 
