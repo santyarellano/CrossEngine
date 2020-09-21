@@ -23,13 +23,26 @@ Before getting all hands-on coding, please make sure you can run the project on 
    sudo apt-get install libsdl2-net-dev
    sudo apt-get install libsdl2-ttf-dev
 
-**MAC OS**
-brew install sdl2
-brew install sdl2_image
-brew install sdl2_mixer
-brew install sdl2_net
-brew install sdl2_ttf
+    **MAC OS**
+    brew install sdl2
+    brew install sdl2_image
+    brew install sdl2_mixer
+    brew install sdl2_net
+    brew install sdl2_ttf
 
-**WINDOWS**
-[Follow this video (I haven't done it myself)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjL9cHgmvrrAhVCVK0KHdvOCuYQwqsBMAV6BAgJEBE&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DUvJt9MZs_M8&usg=AOvVaw3UxlXCnewRRmnFSLN32P89)
+    **WINDOWS**
+    [Follow this video (I haven't done it myself)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjL9cHgmvrrAhVCVK0KHdvOCuYQwqsBMAV6BAgJEBE&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DUvJt9MZs_M8&usg=AOvVaw3UxlXCnewRRmnFSLN32P89)
+```
+
+3. You'll need to install _make_. Again, I'll leave you with some commands:
+
+```
+**LINUX:**
+sudo apt-get install build-essential
+
+**MAC OS:**
+xcode-select --install
+
+**WINDOWS:**
+Use the installation process [described here.](http://gnuwin32.sourceforge.net/packages/make.htm)
 ```
