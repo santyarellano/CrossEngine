@@ -8,7 +8,7 @@ Now that it's actually working I'll leave you with a guide for you to clone this
 
 GOOD LUCK!
 
-## STEP 1: Downloading the engine and getting it to run
+## STEP 1: Downloading the engine and everything needed.
 
 Before getting all hands-on coding, please make sure you can run the project on your desktop and on your Android device (as it is insanely hard to identify dependency errors with a big project). Here are some steps for you to get it to work:
 
@@ -44,3 +44,20 @@ xcode-select --install
 ```
 
 For **WINDOWS:** Use the installation process [described here.](http://gnuwin32.sourceforge.net/packages/make.htm)
+
+## STEP 2: Running the engine!
+
+If everything is setup properly, you should be able to run it both in your computer and in your Android device. However, if you're a Windows user I can't guide you anymore (maybe these commands work on the command prompt or you could try to use WSL).
+
+### Running on desktop
+
+1. Open your terminal and navigate to the folder with: `cd path/where/you/cloned/the/repo`.
+2. Build the game for desktop with `make` command.
+3. Run the game with: `make run`.
+
+### Running on android
+
+1. Make sure to have your device with USB debugging enabled. You can google how to do that as it is different for every android device.
+1. Make sure you have an android device connected to your computer.
+1. I wrote a shell script for you to build & install the game doing all the necessary linking and stuff. Just run `scripts/bandroid`.
+1. If everything went well you should see a lot of lines running on your terminal and your phone should ask you if you want to install an SDL project. Accept that and when your terminal ends running stuff you should be able to run your recently SDL2 installed game.
