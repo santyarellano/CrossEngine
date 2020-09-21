@@ -14,6 +14,8 @@ Before getting all hands-on coding, please make sure you can run the project on 
 
 1. Clone the repo with: `git clone https://github.com/santyarellano/CrossEngine.git`
 2. Install all SDL2 needed libraries. I suggest using a UNIX-like environment as it is much easier to install these using cli. You can install them using the following lines:
+
+```
    **LINUX:**
    sudo apt-get install libsdl2-dev
    sudo apt-get install libsdl2-image-dev
@@ -21,12 +23,13 @@ Before getting all hands-on coding, please make sure you can run the project on 
    sudo apt-get install libsdl2-net-dev
    sudo apt-get install libsdl2-ttf-dev
 
-   **MAC OS**
-   brew install sdl2
-   brew install sdl2_image
-   brew install sdl2_mixer
-   brew install sdl2_net
-   brew install sdl2_ttf
+**MAC OS**
+brew install sdl2
+brew install sdl2_image
+brew install sdl2_mixer
+brew install sdl2_net
+brew install sdl2_ttf
 
-   **WINDOWS**
-   [Follow this video (I haven't done it myself)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjL9cHgmvrrAhVCVK0KHdvOCuYQwqsBMAV6BAgJEBE&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DUvJt9MZs_M8&usg=AOvVaw3UxlXCnewRRmnFSLN32P89)
+**WINDOWS**
+[Follow this video (I haven't done it myself)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjL9cHgmvrrAhVCVK0KHdvOCuYQwqsBMAV6BAgJEBE&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DUvJt9MZs_M8&usg=AOvVaw3UxlXCnewRRmnFSLN32P89)
+```
