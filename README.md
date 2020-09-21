@@ -31,7 +31,7 @@ Before getting all hands-on coding, please make sure you can run the project on 
     brew install sdl2_ttf
 
     **WINDOWS**
-    [Follow this video ([I haven't done it myself])(https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjL9cHgmvrrAhVCVK0KHdvOCuYQwqsBMAV6BAgJEBE&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DUvJt9MZs_M8&usg=AOvVaw3UxlXCnewRRmnFSLN32P89)
+    [Follow this video ([I haven't done it myself](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjL9cHgmvrrAhVCVK0KHdvOCuYQwqsBMAV6BAgJEBE&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DUvJt9MZs_M8&usg=AOvVaw3UxlXCnewRRmnFSLN32P89))
 ```
 
 3. You'll need to install _make_. Again, I'll leave you with some commands:
