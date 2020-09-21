@@ -12,9 +12,14 @@ GOOD LUCK!
 
 First, one must understand that there's a difference between an engine and an editor. An editor is a graphic interface which allows you to tweak the game's engine. Very much like what you do with Unity, Unreal, Game Maker, etc (This engine doesn't have an editor!!!). An engine is everything behind that editor, all the code, building files and folder structure, following a specific architecture.
 
-Knowing this, let's see what the engine implements (until now):
+Knowing this, let's see what the engine implements (checked items are the ones implemented):
 
-- Multiplatform building (Desktop and Android).
+- [x] Multiplatform building (Desktop and Android).
+- [ ] Architecture structure.
+- [ ] Sprite management.
+- [ ] Modular input management.
+- [ ] Map management.
+- [ ] Camera component.
 
 # QUICK START
 
@@ -71,3 +76,13 @@ If everything is setup properly, you should be able to run it both in your compu
 2. Make sure you have an android device connected to your computer.
 3. I wrote a shell script for you to build & install the game doing all the necessary linking and stuff. Just run `scripts/bandroid`.
 4. If everything went well you should see a lot of lines running on your terminal and your phone should ask you if you want to install an SDL project. Accept that and when your terminal ends running stuff you should be able to run your recently SDL2 installed game.
+
+## STEP 3: :crystal_ball: Creating your game! :crystal_ball:
+
+All you have to do is go to the src folder (not the one inside the android-game folder) and tweak the .cpp and .hpp files. However, please do not create any .cpp files as it doesn't work with android that way (even though it works on desktop). If you need to create a new file, create it using .hpp files and include them where you need to.
+
+I'll leave here a guide on how you could tweak the engine to make your game once I'm finished with the architecture.
+
+Until then, feel free to explore and create your own architecture!
+
+# GO ON AND CREATE A GREAT GAME! :video_game:
